@@ -62,15 +62,16 @@ Segue os exemplos:
 - Sugerimos a utilização do git para versionar a solução.
 
 <h3 align="center">
-  Acessem a He4rt
+  Acessem a He4rt :purple_heart:
 </h3>
 
 <h3 align="center">
   <img src="https://heartdevs.com/wp-content/uploads/2018/12/logo.png" width="215"><br>
-    Visite nosso discord, vamo codar junto!! 
+    Visite nosso discord, vamo codar junto!! :godmode:
 	<a href="https://discord.gg/J78z3FV" target="_blank">
 	<img src="https://discordapp.com/api/guilds/452926217558163456/embed.png" alt="Discord server"/></a><br>
 </h3>
 
 [Twitter He4rt](https://twitter.com/He4rtDevs)
+
 [My Twitter](https://twitter.com/m7Aei_He4rt)

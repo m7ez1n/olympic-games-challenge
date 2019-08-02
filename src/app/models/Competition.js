@@ -17,6 +17,10 @@ const CompetitionSchema = new mongoose.Schema({
   unidade: {
     type: String,
     required: true
+  },
+  open: {
+    type: Boolean,
+    required: true
   }
 })
 

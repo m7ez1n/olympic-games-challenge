@@ -44,7 +44,11 @@ class CompetitionController {
   }
 
   // Deletar algum jogador
-  async destroy (req, res) {}
+  async destroy (req, res) {
+    await Competition.findByIdAndDelete(req.params.id)
+
+    return res.send()
+  }
 }
 
 module.exports = new CompetitionController()

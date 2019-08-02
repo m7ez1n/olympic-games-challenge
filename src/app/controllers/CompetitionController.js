@@ -3,10 +3,25 @@ const Competition = require('../models/Competition')
 class CompetitionController {
   // CRUD da competição
   // Listagem
-  async index (req, res) {}
+  async index (req, res) {
+    const competitions = await Competition.paginate(
+      {},
+      {
+        page: req.query.page || 1,
+        limit: 6,
+        sort: '-createAt'
+      }
+    )
+
+    return res.json(competitions)
+  }
 
   // Listagem de um jogador só
-  async show (req, res) {}
+  async show (req, res) {
+    const competition = Competition.findById(req.params.id)
+
+    return res.json(competition)
+  }
 
   // Criação de um novo jogador
   async store (req, res) {}

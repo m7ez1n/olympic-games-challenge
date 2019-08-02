@@ -21,6 +21,10 @@ const CompetitionSchema = new mongoose.Schema({
   open: {
     type: Boolean,
     required: true
+  },
+  createdAt: {
+    type: Date,
+    default: Date.now
   }
 })
 

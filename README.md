@@ -17,8 +17,8 @@ Com a chegada dos jogos olímpicos, fomos designados para construir uma API REST
 
 Através da API, deveremos ser capazes de:
 
-1. - [ ] Criar uma competição
-2. - [ ] Cadastrar resultados para uma competição (todos os campos são obrigatórios)
+1. - [x] Criar uma competição
+2. - [x] Cadastrar resultados para uma competição (todos os campos são obrigatórios)
 
 Segue os exemplos:
 
@@ -40,7 +40,7 @@ Segue os exemplos:
   }
 ```
 
-3. - [ ] Finalizar uma competição.
+3. - [x] Finalizar uma competição.
 4. - [ ] Retornar o ranking da competição, exibindo a posição final de cada atleta.
 
 #### Detalhes sobre a API :rage4:

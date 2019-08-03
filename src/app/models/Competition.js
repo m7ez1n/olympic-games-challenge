@@ -7,7 +7,8 @@ const CompetitionSchema = new mongoose.Schema({
     required: true
   },
   atleta: {
-    type: String,
+    type: mongoose.Schema.Types.ObjectId,
+    ref: 'Player',
     required: true
   },
   value: {

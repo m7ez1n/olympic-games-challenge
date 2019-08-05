@@ -53,7 +53,7 @@ Segue os exemplos:
 
 - [x] O Design da API, bem como input e output dos dados, fica a seu critério, sendo inclusive um dos pontos de avaliação.
 
-- [ ] Testes são obrigatórios.
+- [x] Testes são obrigatórios.
 
 - [x] Não é necessário criar um banco de dados, podendo manter os dados na memória. (hint: sqlite) (Usei o mongoDB como db principal e o sqlite pra tests)
 

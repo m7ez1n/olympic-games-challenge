@@ -1,3 +1,6 @@
+const request = require('supertest')
+const server = require('../../src/server')
+
 const { Player } = require('../../src/app/models/Player')
 
 describe('Player', () => {
@@ -8,6 +11,10 @@ describe('Player', () => {
       nationality: 'Brasil'
     })
 
-    expect(player).toBe(true)
+    const response = await request(server)
+      .post('players')
+      .send(player)
+
+    expect(response.status).toBe(200)
   })
 })

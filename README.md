@@ -45,21 +45,19 @@ Segue os exemplos:
 
 #### Detalhes sobre a API :rage4:
 
-- A API não deve aceitar cadastros de resultados se a competição já estiver encerrada.
+- [ ] A API não deve aceitar cadastros de resultados se a competição já estiver encerrada.
 
-- A API pode retornar o ranking/resultado parcial, caso a disputa ainda não estiver encerrada.
+- [ ] A API pode retornar o ranking/resultado parcial, caso a disputa ainda não estiver encerrada.
 
-- No caso da competição do lançamento de dardos, cada atleta terá 3 chances, e o resultado da competição deverá levar em conta o lançamento mais distante de cada atleta.
+- [ ] No caso da competição do lançamento de dardos, cada atleta terá 3 chances, e o resultado da competição deverá levar em conta o lançamento mais distante de cada atleta.
 
-- O Design da API, bem como input e output dos dados, fica a seu critério, sendo inclusive um dos pontos de avaliação.
+- [x] O Design da API, bem como input e output dos dados, fica a seu critério, sendo inclusive um dos pontos de avaliação.
 
-- Testes são obrigatórios.
+- [ ] Testes são obrigatórios.
 
-- Necessária criação de um Readme para informar o passo a passo de como rodar a API.
+- [x] Não é necessário criar um banco de dados, podendo manter os dados na memória. (hint: sqlite) (Usei o mongoDB como db principal e o sqlite pra tests)
 
-- Não é necessário criar um banco de dados, podendo manter os dados na memória. (hint: sqlite)
-
-- Sugerimos a utilização do git para versionar a solução.
+- [x] Sugerimos a utilização do git para versionar a solução.
 
 <h3 align="center">
   Acessem a He4rt :purple_heart:

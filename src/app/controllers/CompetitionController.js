@@ -16,7 +16,7 @@ class CompetitionController {
     return res.json(competitions)
   }
 
-  // Listagem de um jogador só
+  // Listagem de uma competição só
   async show (req, res) {
     const competition = await Competition.findById(req.params.id)
 
